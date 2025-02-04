@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public interface IDamageable
+public interface IDamageableP
 {
     public float health { get; set; }
     public float defense { get; set; }

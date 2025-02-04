@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Enemy : MonoBehaviour, IDamageable, IMoving, IUnitStats
+public class Enemy : MonoBehaviour, IDamageableP, IMoving, IUnitStats
 {
     public float health { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
     public float defense { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
@@ -12,7 +12,6 @@ public class Enemy : MonoBehaviour, IDamageable, IMoving, IUnitStats
     {
 
     }
-
 
     public void RestoreHealth()
     {
@@ -31,7 +30,6 @@ public class Enemy : MonoBehaviour, IDamageable, IMoving, IUnitStats
     {
         
     }
-
 
     public void TurnLeft()
     {
